@@ -9,8 +9,11 @@
     "preview": "vite preview",
     "favicons": "node scripts/generate-favicons.mjs"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "^3.2.0",
+    "@sveltejs/adapter-vercel": "^5.10.3",
     "@sveltejs/kit": "^2.5.0",
     "@sveltejs/vite-plugin-svelte": "^3.1.0",
     "@tailwindcss/vite": "^4.0.0",
