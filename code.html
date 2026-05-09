@@ -1,0 +1,443 @@
+<!DOCTYPE html><html class="dark" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>ALTIVUM | Luxury Cleaning Services</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@400;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "outline": "#8e9192",
+                      "error-container": "#93000a",
+                      "on-secondary": "#2f3131",
+                      "secondary-container": "#454747",
+                      "on-primary-fixed-variant": "#474646",
+                      "on-tertiary": "#32302f",
+                      "surface-container-high": "#2b2a2a",
+                      "on-error-container": "#ffdad6",
+                      "tertiary-fixed-dim": "#cac6c3",
+                      "tertiary": "#cac6c3",
+                      "inverse-on-surface": "#313030",
+                      "on-secondary-fixed-variant": "#454747",
+                      "surface-dim": "#141313",
+                      "background": "#141313",
+                      "tertiary-container": "#0c0b0a",
+                      "surface-container-highest": "#353434",
+                      "on-background": "#e5e2e1",
+                      "on-primary": "#313030",
+                      "outline-variant": "#444748",
+                      "surface-variant": "#353434",
+                      "on-tertiary-fixed-variant": "#484645",
+                      "primary-fixed": "#e5e2e1",
+                      "error": "#ffb4ab",
+                      "tertiary-fixed": "#e6e1df",
+                      "surface-container-lowest": "#0e0e0e",
+                      "surface": "#141313",
+                      "secondary-fixed-dim": "#c6c6c6",
+                      "on-surface": "#e5e2e1",
+                      "text-on-dark-secondary": "#D9D9D9",
+                      "surface-primary": "#0B0B0B",
+                      "surface-container": "#201f1f",
+                      "on-tertiary-fixed": "#1d1b1a",
+                      "primary-fixed-dim": "#c9c6c5",
+                      "on-secondary-fixed": "#1a1c1c",
+                      "inverse-primary": "#5f5e5e",
+                      "on-error": "#690005",
+                      "text-on-dark-primary": "#FFFFFF",
+                      "surface-tint": "#c9c6c5",
+                      "accent-champagne": "#F7E7CE",
+                      "on-primary-fixed": "#1c1b1b",
+                      "surface-container-low": "#1c1b1b",
+                      "secondary": "#c6c6c6",
+                      "accent-silver": "#C0C0C0",
+                      "on-tertiary-container": "#7c7977",
+                      "on-primary-container": "#7b7979",
+                      "surface-bright": "#3a3939",
+                      "surface-secondary": "#111111",
+                      "surface-tertiary": "#1C1C1C",
+                      "primary-container": "#0b0b0b",
+                      "on-secondary-container": "#b5b5b5",
+                      "secondary-fixed": "#e2e2e2",
+                      "inverse-surface": "#e5e2e1",
+                      "primary": "#c9c6c5",
+                      "on-surface-variant": "#c4c7c7"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "grid-gutter": "24px",
+                      "section-gap-mobile": "80px",
+                      "grid-margin": "80px",
+                      "section-gap-desktop": "160px",
+                      "container-max-width": "1440px"
+              },
+              "fontFamily": {
+                      "body-lg": ["Inter"],
+                      "display-lg-mobile": ["Playfair Display"],
+                      "display-lg": ["Playfair Display"],
+                      "label-caps": ["Inter"],
+                      "headline-md-mobile": ["Playfair Display"],
+                      "headline-md": ["Playfair Display"],
+                      "body-md": ["Inter"]
+              },
+              "fontSize": {
+                      "body-lg": ["18px", {"lineHeight": "1.8", "letterSpacing": "0.01em", "fontWeight": "400"}],
+                      "display-lg-mobile": ["44px", {"lineHeight": "1.2", "fontWeight": "400"}],
+                      "display-lg": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                      "label-caps": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.2em", "fontWeight": "600"}],
+                      "headline-md-mobile": ["32px", {"lineHeight": "1.3", "fontWeight": "400"}],
+                      "headline-md": ["40px", {"lineHeight": "1.3", "fontWeight": "400"}],
+                      "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        .ghost-border { border: 1px solid #1C1C1C; }
+        .text-shadow-premium { text-shadow: 0 4px 12px rgba(0,0,0,0.5); }
+        .cinematic-overlay { background: linear-gradient(180deg, rgba(11,11,11,0.4) 0%, rgba(11,11,11,0.95) 100%); }
+        .matte-card { background-color: #111111; border: 1px solid rgba(192, 192, 192, 0.05); }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-md dark:bg-background/90 border-b border-surface-tertiary h-32">
+<div class="max-w-container-max-width mx-auto px-grid-margin flex justify-between items-center h-full">
+<a class="tracking-[0.3em] text-on-background dark:text-on-background uppercase transition-all duration-300 hover:text-accent-champagne" href="#" data-stitch-orig-opacity="1"></a>
+<nav class="hidden md:flex gap-10 items-center">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-accent-champagne transition-all duration-500 ease-in-out" href="#services">Services</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-accent-champagne transition-all duration-500 ease-in-out" href="#about">About</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-accent-champagne transition-all duration-500 ease-in-out" href="#quote">Private Quote</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-accent-champagne transition-all duration-500 ease-in-out" href="#contact">Contact</a>
+<a class="ml-4 bg-primary text-on-primary px-8 py-3 font-label-caps text-label-caps hover:bg-accent-champagne transition-all duration-300" href="#quote">Request Quote</a>
+</nav>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative h-screen min-h-[700px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Luxury Interior" class="w-full h-full object-cover" data-alt="A cinematic, low-light shot of a high-end luxury living room featuring matte black furniture and subtle silver accents. Soft, warm ambient lighting highlights the dust-free surfaces and perfectly arranged velvet cushions. The atmosphere is serene, exclusive, and impeccably clean, representing the ultimate high-end residential experience. The color palette is dominated by deep blacks and warm silvers." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_eY-oWPb0y6eJ7vhK0AeyAjB-piBtr2pg6quC8Et4RjtqVgHUQYg8jRcABYAnOWeXENZvNwyZCI8YfqdXYyBS1cOmldt6TtPqrB57Q8cLhqVEr6Sl_hMW5Z1HETfs052uRH0mZGhMmsZQeJVweRukEsOn_Sm_-nP8ZAoG0Yv9Vb_SEpoYd2Dz5mIo_2ZSBzIAAkUFue9etITPMhFjcGhHysrlyrz5CoEwaYPKxxnF4Lqr9BAy4DDE_zuR1_B_YWyxl49tXwe8OFw">
+<div class="absolute inset-0 cinematic-overlay"></div>
+</div>
+<div class="relative z-10 max-w-container-max-width mx-auto px-grid-margin w-full">
+<div class="max-w-3xl">
+<h1 class="font-display-lg text-display-lg-mobile mb-6 leading-tight md:text-display-lg">We don't just clean spaces. We elevate them.</h1>
+<p class="font-body-lg text-on-surface-variant mb-10 max-w-2xl">
+                        Premium residential, Airbnb, and commercial cleaning services designed for clients who expect more than clean — they expect excellence.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-6"><a class="inline-flex items-center justify-center bg-white text-black font-label-caps text-label-caps uppercase transition-all duration-500 hover:bg-accent-champagne px-10 py-5 text-sm whitespace-nowrap min-w-[280px] h-[60px]" href="#quote">Request a Private Quote</a><a class="inline-flex items-center justify-center font-label-caps text-label-caps uppercase transition-all duration-500 px-10 py-5 text-sm whitespace-nowrap min-w-[280px] h-[60px] bg-[#0B0B0B] text-white border border-white/20 hover:bg-accent-champagne hover:text-black" href="#about">Discover the ALTIVUM Standard</a></div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-background overflow-hidden" id="about">
+<div class="max-w-container-max-width mx-auto px-grid-margin">
+<div class="flex flex-col lg:flex-row gap-20 items-center">
+<div class="w-full lg:w-1/2 relative">
+<div class="aspect-[4/5] overflow-hidden">
+<img alt="The ALTIVUM Standard" class="w-full h-full object-cover grayscale brightness-75 transition-all duration-700 hover:grayscale-0" data-alt="An editorial-style close-up photograph of a professional's hand in a white glove delicately checking a marble surface for dust in a luxury penthouse setting. The lighting is focused and dramatic, highlighting the texture of the stone and the pristine cleanliness of the environment. The overall feel is one of extreme precision, attention to detail, and high-end hospitality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtw_w2a89U1MUywPYAZWOBgPGOMS6LKSABfWg5LX-ovepvP_rUXMV9KYOGclFNs3iTNmPoG4zraGiMgyULiTZHMWAB86Al37nfcB0oe7flLXJ4e1EOBybUaJE_8LOqD06YCJUABW9yRC2-i85M10363oggjjGLs8iIAt-RieftRVr8lo2pJhuMYM6Y65-70PLnOuGhttpMBYdq0b94oefMn4nLAJPjsFyK9te_c_jN_GBRE0g8sXRJ7GPm-IVdWzpdOM5F6YqZonE">
+</div>
+<div class="absolute -bottom-10 -right-10 w-64 h-64 bg-surface-secondary hidden md:flex items-center justify-center p-8 border border-white/5">
+<p class="font-label-caps text-label-caps text-accent-champagne italic text-center leading-relaxed">"True luxury is not only seen - it is felt."</p>
+</div>
+</div>
+<div class="w-full lg:w-1/2">
+<span class="font-label-caps text-label-caps text-primary tracking-widest mb-6 block uppercase">About ALTIVUM</span>
+<h2 class="font-headline-md text-headline-md mb-10">More Than Cleaning.<br>A Standard of Excellence.</h2>
+<div class="space-y-6 text-on-surface-variant max-w-lg">
+<p class="font-body-lg text-body-lg">ALTIVUM was created to redefine premium cleaning.</p><div class="">We believe true luxury lives in the details - punctuality, precision, presentation, and trust.</div><p class=""></p>
+<p class="font-body-md text-body-md">More than cleaning spaces, we create elevated experiences through consistency, sophistication, and whit-glove service.</p>
+<p class="font-body-md text-body-md italic text-white pt-4">We do not compete on price. We compete on experience.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-surface-secondary" id="services">
+<div class="max-w-container-max-width mx-auto px-grid-margin">
+<div class="mb-20">
+<span class="font-label-caps text-label-caps text-primary tracking-widest mb-6 block uppercase">Our Portfolio</span>
+<h2 class="font-headline-md text-headline-md">Curated Premium Services</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-grid-gutter">
+<!-- Residential -->
+<div class="matte-card group overflow-hidden">
+<div class="h-64 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A wide-angle shot of a minimalist luxury kitchen with dark wood cabinets and stainless steel appliances. Every surface is gleaming under soft under-cabinet lighting. The scene is perfectly composed, with no clutter, conveying a sense of fresh, deep cleanliness and high-end living. The lighting is bright yet atmospheric, emphasizing the matte finishes." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgT-GURw2Hvdck8oo8L1neknk8Psf1sBnPpaBL1hnUX2hbFxXKgbNKTzoofOht_YYlhdsro0Nfrr4_MNjoXreoOCFeGD06YjNKRxEVl4ZGo9C8F7WcBIlWz9wb1sHW3SM6Ck9zkKM57nsLxFgSKbu3h1WDba3jNV_jOXX0bR6O02Rk4X4jizvH63IX8v-9pQbaMK59y054LN-MgmFdAkW35-fHQG92ygioHzoyx8N5THT9i2txUIhpyoI1EjYNh26yHbkyf-lntlQ">
+</div>
+<div class="p-10">
+<h3 class="font-headline-md text-2xl mb-4">Residential Luxury</h3>
+<p class="text-on-surface-variant font-body-md mb-6">Premium home cleaning designed for clients who value detail, consistency, and presentation.</p>
+<a class="font-label-caps text-label-caps text-primary hover:text-accent-champagne transition-colors flex items-center gap-2" href="#quote">Explore Service <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+<!-- Deep Cleaning -->
+<div class="matte-card group overflow-hidden">
+<div class="h-64 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A modern, high-end bathroom featuring charcoal tiles, a glass shower, and silver fixtures. The scene is shot with a focus on the flawless, reflective surfaces and the crisp lines of the architecture. The lighting is cool and clean, showcasing a deep-cleaned environment that feels like a five-star hotel spa." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCx4X5d6ha9U2-M7zV9MjOcpizAbGq54mPE5LIKS3szaIX5ggggMzPzqtaNRz9MuwT810dygJUmBD8HmRDZdBBiUIZ0DjEd7clqG1w9fy2MG0PqUg78eM2Zpxlw3OcCGcINpp-3X8h_AzRfFog35T9i3IkpAfaodrV0Q0DmpOwOEhFS0EOOo_i4vzT5YCA9iJTqtlo5d3KiRrTn5C-tdKGJ3qjWOlQSvQ_IeXd2cKlEdEv4CZ1ceEYJbKDMCMJinv_Zo1GbfV_2VCM">
+</div>
+<div class="p-10">
+<h3 class="font-headline-md text-2xl mb-4">Deep Cleaning</h3>
+<p class="text-on-surface-variant font-body-md mb-6">A complete reset for spaces that require a higher level of attention and precision.</p>
+<a class="font-label-caps text-label-caps text-primary hover:text-accent-champagne transition-colors flex items-center gap-2" href="#quote">Explore Service <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+<!-- Airbnb Turnover -->
+<div class="matte-card group overflow-hidden">
+<div class="h-64 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A luxurious boutique bedroom prepared for a new guest. The bed is made with crisp, white high-thread-count linens and perfectly fluffed pillows. A silver tray with clean towels and a small welcome kit sits on the bed. The room is flooded with soft daylight, highlighting the dust-free furniture and pristine atmosphere of a premium Airbnb turnover." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3Qc555Hztwequ0Y2J8WBl3nEZ1YrEyN6JZLU4dRGm7zmXUuQQtM05qj9dOoFMx-jSvYpyiHqhE3Og7QlxFdS_XF9ftOqeM6ZaM1U1mkRRKfHpzQgosNKXoTStBEq_quPqnPGKPEvRNX4SDr3WusAQzP6bVYd5TbcGlWuBA4xYwIuu_HgWDBeZpwg8ExR-sU61T33zA5_qGPv0kfjiPVJSf0i_1AoLeOp4F0k-leoVVWXuorc3Q70JVdpKOhQB8smALLSfyJVTxm4">
+</div>
+<div class="p-10">
+<h3 class="font-headline-md text-2xl mb-4">Airbnb Turnover</h3>
+<p class="text-on-surface-variant font-body-md mb-6">Guest-ready cleaning with hotel-level presentation and consistent turnaround standards.</p>
+<a class="font-label-caps text-label-caps text-primary hover:text-accent-champagne transition-colors flex items-center gap-2" href="#quote">Explore Service <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+<!-- Move In/Out -->
+<div class="matte-card group overflow-hidden">
+<div class="h-64 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="An empty, high-end loft with expansive windows and polished concrete floors that reflect the bright morning light. The space is completely vacant and spotlessly clean, showing no traces of previous occupancy. The architectural details of the luxury space are emphasized by the stark, clean environment, ready for a new resident to move in." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBy8H7tmnI24Uh55_ax0itUyJYzTomFjALvvGvT8h3pNJ_kWU0kKE58PvPNMAMCEws9V7smZmHodGs-uOrNdJCyFtHGCXl7cFHB7hk94te-6s6zmJRcaio_VhbLF8Iw_V9XZsfDRSR0GWRN-pzqE5bx8Lxlaa--4uzhxDn-o0I6_JkgYolp91DKFZsUyFEGDzvqSE91PRi_SkAZYFYGSgwBB3M63NTrGm05REE9ZLdFR3XpCPf3cYZD4np43E9hca19cWvONblSO4">
+</div>
+<div class="p-10">
+<h3 class="font-headline-md text-2xl mb-4">Move-In / Out</h3>
+<p class="text-on-surface-variant font-body-md mb-6">Detailed cleaning for transitions, relocations, and property preparation.</p>
+<a class="font-label-caps text-label-caps text-primary hover:text-accent-champagne transition-colors flex items-center gap-2" href="#quote">Explore Service <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+<!-- Executive Office -->
+<div class="matte-card group overflow-hidden">
+<div class="h-64 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A sophisticated executive office suite with a large dark wood desk, leather chair, and panoramic city views. The desk is perfectly organized with high-end stationery. The entire room has a polished, professional gleam, from the reflective windows to the dust-free electronics. The lighting is professional and prestigious, conveying a high-performance corporate environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0hg1n42XS1fxiUGdEfcApIkUTRCArCYwCLYKV2NBcq4qtAHRJzDUNy7rk9KMPRtf7eOppM3kSDrkLRHAdZYNeKDUOms8Cop1NuSL1E26PaNGT-Qa5wox_DyYKieZS7zitzGk8aDMYjHtUsuVHG1cyJzB9_-2plBVYcev4WYYgePhqIgwg_yGUKy0Ohc8GpUE2AeP8014Pl8QH7pCMBZ_oZH1fECyLDZCeZZ5mo4-3cmauDfjFSRrswcwG9zOTx9Jw3bobgXx_j-U">
+</div>
+<div class="p-10">
+<h3 class="font-headline-md text-2xl mb-4">Executive Office</h3>
+<p class="text-on-surface-variant font-body-md mb-6">Premium cleaning solutions for offices and professional environments.</p>
+<a class="font-label-caps text-label-caps text-primary hover:text-accent-champagne transition-colors flex items-center gap-2" href="#quote">Explore Service <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+<!-- Post-Construction -->
+<div class="matte-card group overflow-hidden">
+<div class="h-64 overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A newly renovated luxury apartment with high-end materials like marble and brass. The space is captured in the moment after a professional final cleaning, showing flawless surfaces free of any construction dust. The lighting is crisp and clear, highlighting the pristine condition of the new installation and the detailed finish work." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxhG7JGvXprjwiv3sxas3BeUK_m42myU-gqB7mnD3p4DwgvZfXO2iqZyom-o_y-F8vFMhIdyZg41xnaTAUG2mU-lpPK45bdyngnScEhnwH-gbg6H-_aOz4YZYj72t9LlpyoRoL680urVxXZo1VP7yWI3BUTB9i4B2lCAqahiclIcFX_whV13BpM1HUUaGYihMXAoXRk2P29nHkenVHYE2HuvUam4vHHrBXbc1FSfxTTaPnP-hBgOoXlfdPfDWIrIacvfoB576Im_E">
+</div>
+<div class="p-10">
+<h3 class="font-headline-md text-2xl mb-4">Post-Construction</h3>
+<p class="text-on-surface-variant font-body-md mb-6">Detailed final cleaning designed to prepare spaces for presentation and use.</p>
+<a class="font-label-caps text-label-caps text-primary hover:text-accent-champagne transition-colors flex items-center gap-2" href="#quote">Explore Service <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us / Differentiators -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-background">
+<div class="max-w-container-max-width mx-auto px-grid-margin">
+<div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+<div class="max-w-xl">
+<span class="font-label-caps text-label-caps text-primary tracking-widest mb-6 block uppercase">The Distinction</span>
+<h2 class="font-headline-md text-headline-md">Why Clients Choose ALTIVUM</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">An uncompromising approach to cleanliness that sets a new industry benchmark.</p>
+</div>
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-12 border-t border-surface-tertiary pt-12">
+<div class="space-y-4">
+<span class="text-accent-champagne material-symbols-outlined text-4xl">dry_cleaning</span>
+<h4 class="font-label-caps text-label-caps uppercase tracking-wider">White-glove standard</h4>
+<p class="text-on-surface-variant text-sm">Exceptional handling of your most precious belongings and delicate surfaces.</p>
+</div>
+<div class="space-y-4">
+<span class="text-accent-champagne material-symbols-outlined text-4xl">precision_manufacturing</span>
+<h4 class="font-label-caps text-label-caps uppercase tracking-wider">Precision Detail</h4>
+<p class="text-on-surface-variant text-sm">We find what others miss, ensuring every corner and crevice is flawless.</p>
+</div>
+<div class="space-y-4">
+<span class="text-accent-champagne material-symbols-outlined text-4xl">schedule</span>
+<h4 class="font-label-caps text-label-caps uppercase tracking-wider">Punctuality</h4>
+<p class="text-on-surface-variant text-sm">Your time is your most valuable asset. We arrive exactly as promised.</p>
+</div>
+<div class="space-y-4">
+<span class="text-accent-champagne material-symbols-outlined text-4xl">loyalty</span>
+<h4 class="font-label-caps text-label-caps uppercase tracking-wider">Signature Fragrance</h4>
+<p class="text-on-surface-variant text-sm">A bespoke scent profile that defines your space after every visit.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-surface-secondary">
+<div class="max-w-container-max-width mx-auto px-grid-margin">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div>
+<span class="font-label-caps text-label-caps text-primary tracking-widest mb-6 block uppercase">Peace of Mind</span>
+<h2 class="font-headline-md text-headline-md mb-12">Confidence Built Into Every Visit</h2>
+<div class="space-y-8">
+<div class="flex gap-6 items-start">
+<span class="material-symbols-outlined text-accent-silver" style="font-variation-settings: &quot;FILL&quot; 1;">verified_user</span>
+<div>
+<h5 class="font-label-caps text-label-caps uppercase mb-2">Licensed &amp; Insured</h5>
+<p class="text-on-surface-variant text-sm">Comprehensive coverage to protect your property and our professionals.</p>
+</div>
+</div>
+<div class="flex gap-6 items-start">
+<span class="material-symbols-outlined text-accent-silver" style="font-variation-settings: &quot;FILL&quot; 1;">lock</span>
+<div>
+<h5 class="font-label-caps text-label-caps uppercase mb-2">Discretion &amp; Privacy</h5>
+<p class="text-on-surface-variant text-sm">Strict non-disclosure protocols to ensure your private life stays private.</p>
+</div>
+</div>
+<div class="flex gap-6 items-start">
+<span class="material-symbols-outlined text-accent-silver" style="font-variation-settings: &quot;FILL&quot; 1;">shield_person</span>
+<div>
+<h5 class="font-label-caps text-label-caps uppercase mb-2">Background Checked</h5>
+<p class="text-on-surface-variant text-sm">Every team member undergoes rigorous vetting and security screening.</p>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-background">
+<div class="max-w-container-max-width mx-auto px-grid-margin">
+<div class="text-center mb-20">
+<span class="font-label-caps text-label-caps text-primary tracking-widest mb-6 block uppercase">The Feedback</span>
+<h2 class="font-headline-md text-headline-md">Trusted by Clients Who Expect Excellence</h2>
+</div>
+<div class="flex flex-col gap-12">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-12 matte-card border-l-4 border-l-accent-champagne italic">
+<p class="font-body-lg text-lg mb-8 text-on-surface">"ALTIVUM is on another level. The attention to detail, professionalism, and presentation are unmatched."</p>
+<span class="font-label-caps text-label-caps uppercase text-primary">— Residential Client, DC</span>
+</div>
+<div class="p-12 matte-card italic">
+<p class="font-body-lg text-lg mb-8 text-on-surface">"Our Airbnb turnovers have never been better. Guests always comment on how clean and fresh the space feels."</p>
+<span class="font-label-caps text-label-caps uppercase text-primary">— Portfolio Manager, Maryland</span>
+</div>
+<div class="p-12 matte-card italic">
+<p class="font-body-lg text-lg mb-8 text-on-surface">"Finally, a cleaning company that treats our home with the respect and standards we expect."</p>
+<span class="font-label-caps text-label-caps uppercase text-primary">— Private Estate Owner, Virginia</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quote Form Section -->
+<section class="py-section-gap-mobile md:py-section-gap-desktop bg-surface-tertiary" id="quote">
+<div class="max-w-container-max-width mx-auto px-grid-margin">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
+<div>
+<span class="font-label-caps text-label-caps text-primary tracking-widest mb-6 block uppercase">Engagement</span>
+<h2 class="font-headline-md text-headline-md mb-8">Your Space Deserves Better.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12">Experience what premium cleaning should feel like. Fill out the form below to receive a bespoke quote tailored to your property.</p>
+<div class="space-y-6">
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span class="font-body-md">Maryland | Washington DC | Virginia</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-primary">mail</span>
+<span class="font-body-md">contact@altivumservices.com<br></span>
+</div>
+</div>
+</div>
+<form class="space-y-8 bg-background p-12 border border-white/5">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase text-outline">Full Name</label>
+<input class="w-full bg-transparent border-b border-surface-tertiary focus:border-primary focus:ring-0 transition-colors py-2 text-on-surface placeholder-on-surface-variant/30" placeholder="E.G. ALEXANDER STERLING" type="text">
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase text-outline">Phone Number</label>
+<input class="w-full bg-transparent border-b border-surface-tertiary focus:border-primary focus:ring-0 transition-colors py-2 text-on-surface placeholder-on-surface-variant/30" placeholder="+1 (555) 000-0000" type="tel">
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase text-outline">Email Address</label>
+<input class="w-full bg-transparent border-b border-surface-tertiary focus:border-primary focus:ring-0 transition-colors py-2 text-on-surface placeholder-on-surface-variant/30" placeholder="CLIENT@DOMAIN.COM" type="email">
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase text-outline">Property Type</label>
+<select class="w-full bg-transparent border-b border-surface-tertiary focus:border-primary focus:ring-0 transition-colors py-2 text-on-surface appearance-none">
+<option class="bg-surface-tertiary">Residential Estate</option>
+<option class="bg-surface-tertiary">Luxury Condo</option>
+<option class="bg-surface-tertiary">Airbnb / Short-Term</option>
+<option class="bg-surface-tertiary">Commercial Office</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase text-outline">Square Footage</label>
+<input class="w-full bg-transparent border-b border-surface-tertiary focus:border-primary focus:ring-0 transition-colors py-2 text-on-surface placeholder-on-surface-variant/30" placeholder="E.G. 4,500 SQ FT" type="text">
+</div>
+</div>
+<div class="space-y-2">
+<label class="font-label-caps text-[10px] uppercase text-outline">Message / Special Requests</label>
+<textarea class="w-full bg-transparent border-b border-surface-tertiary focus:border-primary focus:ring-0 transition-colors py-2 text-on-surface placeholder-on-surface-variant/30" placeholder="TELL US ABOUT YOUR REQUIREMENTS..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-5 font-label-caps text-label-caps uppercase hover:bg-accent-champagne transition-all duration-300 tracking-widest" type="submit">
+                            Request Your Private Quote
+                        </button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-secondary dark:bg-surface-secondary w-full py-section-gap-mobile md:py-24 border-t border-surface-tertiary" id="contact">
+<div class="max-w-container-max-width mx-auto px-grid-margin">
+<div class="flex flex-col md:flex-row justify-between items-start gap-16 mb-20">
+<div class="max-w-xs">
+<a class="font-headline-md text-headline-md text-primary dark:text-primary block mb-8 uppercase" href="#">ALTIVUM</a>
+<p class="text-on-surface-variant font-body-md leading-relaxed">Defining the new standard for luxury cleaning services through meticulous attention and unparalleled hospitality.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-16">
+<div>
+<h6 class="font-label-caps text-label-caps text-on-surface mb-8 uppercase">Navigation</h6>
+<ul class="space-y-4">
+<li class=""><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-500" href="#services">Services</a></li>
+<li class=""><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-500" href="#about">The Standard</a></li>
+<li class=""><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-500" href="#quote">Private Quote</a></li>
+</ul>
+</div>
+<div>
+<h6 class="font-label-caps text-label-caps text-on-surface mb-8 uppercase">Legal</h6>
+<ul class="space-y-4">
+<li class=""><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-500" href="#">Terms of Service</a></li>
+<li class=""><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-500" href="#">Privacy Policy</a></li>
+<li class=""><a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors duration-500" href="#">Client Portal</a></li>
+</ul>
+</div>
+<div class="col-span-2 md:col-span-1">
+<h6 class="font-label-caps text-label-caps text-on-surface mb-8 uppercase">Service Areas</h6>
+<p class="text-on-surface-variant font-body-md">Maryland<br>Washington DC<br>Virginia</p>
+</div>
+</div>
+</div>
+<div class="flex flex-col md:flex-row justify-between items-center gap-8 pt-12 border-t border-surface-tertiary/20">
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-widest">© 2026 ALTIVUM CLEANING SERVICES LLC. ALL RIGHTS RESERVED.</p>
+<p class="font-label-caps text-label-caps text-primary italic uppercase tracking-[0.3em]">Luxury is in the details.</p>
+</div>
+</div>
+</footer>
+
+
+
+
+</body></html>
