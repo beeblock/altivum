@@ -12,6 +12,17 @@
   $: errors = form?.errors ?? {};
   $: success = form?.success === true;
 
+  $: if (typeof document !== 'undefined' && errors && Object.keys(errors).length) {
+    queueMicrotask(() => {
+      const firstKey = Object.keys(errors)[0];
+      const el = document.getElementById(firstKey);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.focus({ preventScroll: true });
+      }
+    });
+  }
+
   const inputBase =
     'w-full bg-transparent border-b border-surface-tertiary focus:border-primary focus:ring-0 outline-none transition-colors py-2 text-on-surface placeholder-on-surface-variant/30';
   const labelBase = 'font-label-caps text-[10px] uppercase tracking-widest text-outline block';
@@ -73,6 +84,7 @@
       {:else}
         <form
           method="POST"
+          novalidate
           use:enhance={() => {
             submitting = true;
             return async ({ update }) => {
@@ -142,7 +154,7 @@
               </div>
               <div class="space-y-2">
                 <label class={labelBase} for="zip">ZIP Code *</label>
-                <input id="zip" name="zip" type="text" required inputmode="numeric" pattern="\d{5}(-\d{4})?" value={values.zip ?? ''} class={inputBase} />
+                <input id="zip" name="zip" type="text" required inputmode="numeric" value={values.zip ?? ''} class={inputBase} />
                 {#if errors.zip}<p class="text-xs text-red-400">{errors.zip}</p>{/if}
               </div>
             </div>
