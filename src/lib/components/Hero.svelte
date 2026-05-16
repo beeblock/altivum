@@ -18,13 +18,13 @@
       </p>
       <div class="flex flex-col sm:flex-row gap-6">
         <a
-          class="inline-flex items-center justify-center bg-white text-black font-label-caps text-label-caps uppercase transition-all duration-500 hover:bg-accent-champagne px-10 py-5 text-sm whitespace-nowrap min-w-[280px] h-[60px]"
+          class="inline-flex items-center justify-center text-center bg-white text-black font-label-caps text-label-caps uppercase transition-all duration-500 hover:bg-accent-champagne px-6 sm:px-10 py-4 sm:py-5 text-[11px] leading-relaxed sm:leading-normal sm:text-sm sm:whitespace-nowrap w-full sm:w-auto sm:min-w-[280px] min-h-[60px]"
           href="#quote"
         >
           Request a Private Quote
         </a>
         <a
-          class="inline-flex items-center justify-center font-label-caps text-label-caps uppercase transition-all duration-500 px-10 py-5 text-sm whitespace-nowrap min-w-[280px] h-[60px] bg-[#0B0B0B] text-white border border-white/20 hover:bg-accent-champagne hover:text-black"
+          class="inline-flex items-center justify-center text-center font-label-caps text-label-caps uppercase transition-all duration-500 px-6 sm:px-10 py-4 sm:py-5 text-[11px] leading-relaxed sm:leading-normal sm:text-sm sm:whitespace-nowrap w-full sm:w-auto sm:min-w-[280px] min-h-[60px] bg-[#0B0B0B] text-white border border-white/20 hover:bg-accent-champagne hover:text-black"
           href="#about"
         >
           Discover the ALTIVUM Standard

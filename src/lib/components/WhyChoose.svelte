@@ -2,7 +2,7 @@
   const differentiators = [
     {
       icon: 'dry_cleaning',
-      title: 'White-glove standard',
+      title: 'The Altivum standard',
       description: 'Exceptional handling of your most precious belongings and delicate surfaces.'
     },
     {

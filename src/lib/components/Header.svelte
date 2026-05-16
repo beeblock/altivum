@@ -1,6 +1,7 @@
 <script>
   const navLinks = [
     { href: '#services', label: 'Services' },
+    { href: '#history', label: 'Our History' },
     { href: '#about', label: 'About' },
     { href: '#quote', label: 'Private Quote' },
     { href: '#contact', label: 'Contact' }

@@ -259,7 +259,7 @@ Detailed final cleaning designed to prepare spaces for presentation and use.
 
 ### Differentiators
 
-- White-glove service standard
+- The Altivum service standard
 - Precision in every detail
 - Punctuality without excuses
 - Luxury client experience

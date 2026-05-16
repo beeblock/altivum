@@ -34,8 +34,8 @@
             trust.
           </p>
           <p class="font-body-md text-body-md">
-            More than cleaning spaces, we create elevated experiences through consistency,
-            sophistication, and white-glove service.
+            More than cleaning spaces, we create elevated experiences through consistency and
+            sophistication.
           </p>
           <p class="font-body-md text-body-md italic text-white pt-4">
             We do not compete on price. We compete on experience.
