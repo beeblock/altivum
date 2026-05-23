@@ -3,20 +3,20 @@
   id="history"
 >
   <div class="max-w-page mx-auto px-grid-margin">
-    <div class="flex flex-col lg:flex-row-reverse gap-20 items-center">
-      <div class="w-full lg:w-1/2 relative">
+    <div class="flex flex-col lg:flex-row-reverse gap-20 items-start">
+      <div class="w-full lg:w-1/2 relative lg:sticky lg:top-40">
         <div class="aspect-[4/5] overflow-hidden">
           <img
-            alt="The history of ALTIVUM"
+            alt="The founders of ALTIVUM"
             class="w-full h-full object-cover grayscale brightness-75 transition-all duration-700 hover:grayscale-0"
-            src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80"
+            src="/history.png"
           />
         </div>
         <div
           class="absolute -top-10 -left-10 w-64 h-64 bg-background hidden md:flex items-center justify-center p-8 border border-white/5"
         >
           <p class="font-label-caps text-label-caps text-accent-champagne italic text-center leading-relaxed">
-            "From a single client to a trusted standard."
+            "Daniel, Daniela &amp; Johny — founders of ALTIVUM."
           </p>
         </div>
       </div>
@@ -26,24 +26,67 @@
           Our History
         </span>
         <h2 class="font-headline-md text-headline-md mb-10">
-          Founded on Care.<br />Built on Reputation.
+          Born from a Conviction.
         </h2>
-        <div class="space-y-6 text-on-surface-variant max-w-lg">
-          <p class="font-body-lg text-body-lg">
-            ALTIVUM began with a simple belief — that cleaning should be a craft, not a commodity.
+        <div class="space-y-6 text-on-surface-variant max-w-xl font-body-md">
+          <p class="font-body-lg text-body-lg text-on-surface">
+            ALTIVUM was born from a conviction: success should be felt with ease.
           </p>
+
           <p>
-            What started as a small team serving a handful of homes across Maryland grew into a
-            trusted name for residences and properties across the DMV. Every client referred the
-            next, and our standard became the only marketing we ever needed.
+            In the United States, people work hard to build more than just a house — they build a
+            lifestyle. A space that reflects their standards, their discipline, their peace, and
+            everything they worked hard to achieve.
           </p>
-          <p class="font-body-md text-body-md">
-            Today we serve discerning homeowners, property managers, and short-term rental hosts
-            from Bethesda to Georgetown — applying the same attention to detail that earned us our
-            first client.
+
+          <p>But true luxury is not only in what you see.</p>
+
+          <p class="text-on-surface italic">
+            Luxury is in how you feel when everything is in its rightful place.
           </p>
-          <p class="font-body-md text-body-md italic text-white pt-4">
-            Our history is written one space at a time.
+
+          <p>
+            It is walking into your home and feeling peace.<br />
+            It is knowing every detail has been taken care of.<br />
+            It is having the confidence that your environment reflects the level of life you have built.
+          </p>
+
+          <p>
+            Daniel, Daniela, and Johny understood that the cleaning service market was missing
+            something essential:
+          </p>
+
+          <p class="font-headline-md text-2xl text-accent-champagne italic">Experience.</p>
+
+          <p>
+            Not just another cleaning company.<br />
+            Not just another service.
+          </p>
+
+          <p>But a true standard of private luxury care.</p>
+
+          <p class="text-on-surface">That is why ALTIVUM was created.</p>
+
+          <p class="text-on-surface italic">
+            Not to compete.<br />
+            But to redefine.
+          </p>
+
+          <div class="space-y-2 pt-2">
+            <p>We believe <span class="text-on-surface">punctuality</span> is luxury.</p>
+            <p><span class="text-on-surface">Discretion</span> is luxury.</p>
+            <p><span class="text-on-surface">Precision</span> is luxury.</p>
+            <p><span class="text-on-surface">Trust</span> is luxury.</p>
+          </div>
+
+          <p class="italic">Because true luxury lives in the details.</p>
+
+          <p class="text-on-surface">We do not just clean spaces.</p>
+
+          <p class="font-headline-md text-2xl text-white italic">We elevate them.</p>
+
+          <p class="font-label-caps text-label-caps text-primary tracking-widest pt-4 uppercase">
+            — ALTIVUM
           </p>
         </div>
       </div>

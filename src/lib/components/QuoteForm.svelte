@@ -292,7 +292,7 @@
             <legend class={sectionTitle}>Consent & Terms</legend>
             <p class="text-xs text-on-surface-variant leading-relaxed">
               By clicking "Submit" I agree to receive emails, text messages, and phone calls from
-              Altivum Services LLC. I also agree to the Terms of Use and Privacy Policy linked below.
+              Altivum Cleaning Services. I also agree to the Terms of Use and Privacy Policy linked below.
               Reply STOP to opt out and HELP for help. Message &amp; data rates may apply. Message
               frequency varies. No mobile information will be shared with third parties/affiliates
               for marketing/promotional purposes. All other categories exclude text messaging

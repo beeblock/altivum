@@ -6,8 +6,8 @@
 </script>
 
 <svelte:head>
-  <title>Terms &amp; Conditions — Altivum Services</title>
-  <meta name="description" content="Terms and Conditions for Altivum Services LLC." />
+  <title>Terms &amp; Conditions — Altivum Cleaning Services</title>
+  <meta name="description" content="Terms and Conditions for Altivum Cleaning Services." />
 </svelte:head>
 
 <div id="top"></div>
@@ -45,7 +45,7 @@
         <div>
           <h2 class="font-headline-sm text-2xl text-on-surface mb-4">General Terms</h2>
           <ul class="space-y-3 list-disc list-inside">
-            <li>All appointments are subject to availability and confirmation by Altivum Services.</li>
+            <li>All appointments are subject to availability and confirmation by Altivum Cleaning Services.</li>
             <li>Payment is due upon completion of service unless other arrangements have been made in writing.</li>
             <li>Clients must provide property access at the scheduled appointment time.</li>
             <li>Changes or cancellations require at least 24 hours advance notice.</li>

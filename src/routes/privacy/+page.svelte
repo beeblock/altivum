@@ -6,8 +6,8 @@
 </script>
 
 <svelte:head>
-  <title>Privacy Policy — Altivum Services</title>
-  <meta name="description" content="Privacy Policy for Altivum Services LLC." />
+  <title>Privacy Policy — Altivum Cleaning Services</title>
+  <meta name="description" content="Privacy Policy for Altivum Cleaning Services." />
 </svelte:head>
 
 <div id="top"></div>
@@ -25,7 +25,7 @@
       <div class="space-y-12 text-on-surface-variant font-body-md leading-relaxed">
         <div>
           <p>
-            Altivum Services LLC (&ldquo;Altivum,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or
+            Altivum Cleaning Services (&ldquo;Altivum,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or
             &ldquo;our&rdquo;) is committed to protecting your privacy. This policy explains what
             information we collect, how we use it, and the choices available to you.
           </p>
